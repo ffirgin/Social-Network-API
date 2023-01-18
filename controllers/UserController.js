@@ -18,7 +18,6 @@ const userController = {
   getOneUser(request, response) {
     User.findOne({ _id: request.params.id })
       .select('-__v')
-      // do populate?
       .then((userData) => {
         if (!userData) {
           response.status(404).json({ message: 'No user found with this id!' });
