@@ -1,4 +1,4 @@
-// Create the user model
+// This is the user model
 const { Schema, model } = require('mongoose');
 
 // create User schema

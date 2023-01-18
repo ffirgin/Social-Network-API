@@ -1,3 +1,4 @@
+// This is the Thought model
 const { Schema, model } = require('mongoose');
 const reaction = require('./Reaction');
 
